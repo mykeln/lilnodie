@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ my app }}</title>
+  
+  <meta property="og:title" content="{{ my app }}">
+  <meta property="og:description" content="{{ app description }}">
+  <meta property="og:image" content="https://www.marinfairy.com/img/logo.png">
+  <meta property="og:url" content="https://www.appurl.com">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ my app }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ my app }}">
+  <meta name="twitter:description" content="{{ app description }}">
+  <meta name="twitter:image" content="https://www.marinfairy.com/img/logo.png">
+  <meta name="twitter:site" content="@XX">
+  <meta name="twitter:creator" content="@YY">
+
+  <link href="/styles/output.css" rel="stylesheet">
+  <link href="/styles/app.css" rel="stylesheet">
+
+  <% if(typeof head !== 'undefined') { %>
+    <%- head %>
+  <% } %>
+</head>    
+    
+<body class="bg-off-100">
+  <section class="bg-white text-center">
